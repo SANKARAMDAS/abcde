@@ -2,10 +2,23 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
+    <>
+    <MyApp />
+    <MyApp />
+      <h1 className='myclass'>
       Hello World! Welcome to my Fresh ReactJs Learning.
-    </div>
+      </h1>
+      <MyApp />
+      <p>Awesome</p>
+    </>
+  )
+};
+
+const MyApp = () => {
+  return (
+    <h1>My</h1>
   )
 }
+
 
 export default App
